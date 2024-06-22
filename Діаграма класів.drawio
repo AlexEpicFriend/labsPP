@@ -1,0 +1,207 @@
+<mxfile host="app.diagrams.net" modified="2024-06-22T10:13:26.601Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 OPR/109.0.0.0" etag="zegytJ9CIGCATq0rZMgj" version="24.6.1" type="device">
+  <diagram name="Сторінка-1" id="NVtHKq_6KRies-JjcE7k">
+    <mxGraphModel dx="1466" dy="1239" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="qmvb4EFnW6i1wsPDyDyD-5" value="" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="60" y="90" width="160" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="qmvb4EFnW6i1wsPDyDyD-6" value="Admin" style="rounded=0;whiteSpace=wrap;html=1;align=center;" parent="qmvb4EFnW6i1wsPDyDyD-5" vertex="1">
+          <mxGeometry width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="qmvb4EFnW6i1wsPDyDyD-7" value="&lt;div style=&quot;&quot;&gt;&lt;div&gt;&amp;nbsp; - adminID: int&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; - permissions: String&lt;/div&gt;&lt;div&gt;&amp;nbsp; - department: String&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; - role: String&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; - createdAt: DateTime&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" parent="qmvb4EFnW6i1wsPDyDyD-5" vertex="1">
+          <mxGeometry y="40" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="qmvb4EFnW6i1wsPDyDyD-8" value="&lt;div&gt;&amp;nbsp; + manageUsers(): void&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; + viewReports(): void&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; + editSettings(): void&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; + sendNotifications( notification: Notification): void&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; + manageCard(): void&amp;nbsp;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" parent="qmvb4EFnW6i1wsPDyDyD-5" vertex="1">
+          <mxGeometry y="120" width="160" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="qmvb4EFnW6i1wsPDyDyD-9" value="" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="590" y="880" width="160" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="qmvb4EFnW6i1wsPDyDyD-10" value="Profile " style="rounded=0;whiteSpace=wrap;html=1;align=center;" parent="qmvb4EFnW6i1wsPDyDyD-9" vertex="1">
+          <mxGeometry width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="qmvb4EFnW6i1wsPDyDyD-11" value="&lt;div style=&quot;&quot;&gt;&lt;div&gt;&amp;nbsp; - profileID: int&amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; - email: String&amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; - phone: String&amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; - address: String&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; - createdAt: DateTime&lt;/div&gt;&lt;div&gt;&amp;nbsp; - updatedAt: DateTime&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" parent="qmvb4EFnW6i1wsPDyDyD-9" vertex="1">
+          <mxGeometry y="40" width="160" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="qmvb4EFnW6i1wsPDyDyD-12" value="&lt;div&gt;&amp;nbsp; + getEmail(): String&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; + setEmail(email: String): void&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; + getPhone(): String&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; + setPhone(phone: String): void&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; + getAddress(): String&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; + setAddress(address: String): void&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; + updateProfile(): void&amp;nbsp;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" parent="qmvb4EFnW6i1wsPDyDyD-9" vertex="1">
+          <mxGeometry y="140" width="160" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="qmvb4EFnW6i1wsPDyDyD-17" value="" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="150" y="440" width="210" height="380" as="geometry" />
+        </mxCell>
+        <mxCell id="qmvb4EFnW6i1wsPDyDyD-18" value="User&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;align=center;" parent="qmvb4EFnW6i1wsPDyDyD-17" vertex="1">
+          <mxGeometry x="-10" y="20" width="210" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="qmvb4EFnW6i1wsPDyDyD-19" value="&lt;div style=&quot;&quot;&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp; - userID: int&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; - name: string&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; - email: string&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; - phone: string&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; - password: string&lt;br&gt;&amp;nbsp; - isAdmin: Boolean&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" parent="qmvb4EFnW6i1wsPDyDyD-17" vertex="1">
+          <mxGeometry x="-10" y="60" width="210" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="qmvb4EFnW6i1wsPDyDyD-20" value="&lt;div&gt;&amp;nbsp; + logIn(email: String, password: String): Boolean&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; + createCard(title: String, label: String, photo: String): Post&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; + editProfile(): void&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; + updateName(newName: String): void&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; + EditCard&lt;span style=&quot;background-color: initial;&quot;&gt;(): void&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; + logOut(): void&amp;nbsp;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" parent="qmvb4EFnW6i1wsPDyDyD-17" vertex="1">
+          <mxGeometry x="-10" y="160" width="210" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="qmvb4EFnW6i1wsPDyDyD-54" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;&amp;lt;&amp;lt;&lt;span style=&quot;font-family: &amp;quot;Times New Roman&amp;quot;; background-color: initial;&quot;&gt;aggregation&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;gt;&amp;gt;&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="370" y="360" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qmvb4EFnW6i1wsPDyDyD-61" value="" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="510" y="60" width="210" height="410" as="geometry" />
+        </mxCell>
+        <mxCell id="qmvb4EFnW6i1wsPDyDyD-62" value="CardMissing" style="rounded=0;whiteSpace=wrap;html=1;align=center;" parent="qmvb4EFnW6i1wsPDyDyD-61" vertex="1">
+          <mxGeometry width="210.00000000000003" height="34.166666666666664" as="geometry" />
+        </mxCell>
+        <mxCell id="qmvb4EFnW6i1wsPDyDyD-63" value="&lt;div style=&quot;&quot;&gt;&lt;div&gt;&amp;nbsp; - CardID: int&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; - name: String&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; - DateMissing:&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;DateTime&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; - TimeMissing: DateTime&lt;/div&gt;&lt;div&gt;&amp;nbsp; - isActive:&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;Boolean&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; - location: String&amp;nbsp; &amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; - description: String&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" parent="qmvb4EFnW6i1wsPDyDyD-61" vertex="1">
+          <mxGeometry y="34.17" width="210" height="145.83" as="geometry" />
+        </mxCell>
+        <mxCell id="qmvb4EFnW6i1wsPDyDyD-64" value="&lt;div&gt;&amp;nbsp; + setName(name: String): void&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; + setTime(DateMissing: DateTime, TimeMissing: DateTime): void&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; + setLocation(location: String): void&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; + setDescription( description: String): void&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; + createCard(): void&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; + editCard(): void&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; + deleteCard(): void&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; + viewCard(): void&amp;nbsp;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" parent="qmvb4EFnW6i1wsPDyDyD-61" vertex="1">
+          <mxGeometry y="180" width="210" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="qmvb4EFnW6i1wsPDyDyD-66" value="" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="570" y="530" width="160" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="qmvb4EFnW6i1wsPDyDyD-67" value="Notification " style="rounded=0;whiteSpace=wrap;html=1;align=center;" parent="qmvb4EFnW6i1wsPDyDyD-66" vertex="1">
+          <mxGeometry y="5" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="qmvb4EFnW6i1wsPDyDyD-68" value="&lt;div style=&quot;&quot;&gt;&lt;div&gt;&amp;nbsp; - notificationID: int&lt;/div&gt;&lt;div&gt;&amp;nbsp; - message: String&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; - recipient: User&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; - sentAt: DateTime&amp;nbsp; &amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; - isRead: Boolean&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" parent="qmvb4EFnW6i1wsPDyDyD-66" vertex="1">
+          <mxGeometry y="45" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="qmvb4EFnW6i1wsPDyDyD-69" value="&lt;div&gt;&amp;nbsp; + createNotification( message: String, recipient: User): void&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; + sendNotification(): void&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; + markAsRead(): void&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; + getNotifications(user: User): List&amp;lt;Notification&amp;gt;&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; + deleteNotification( notificationID: int): void&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; + viewNotification(): void&amp;nbsp;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" parent="qmvb4EFnW6i1wsPDyDyD-66" vertex="1">
+          <mxGeometry y="135" width="160" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="qmvb4EFnW6i1wsPDyDyD-70" value="Database" style="rounded=0;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
+          <mxGeometry x="880" y="435" width="210" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="qmvb4EFnW6i1wsPDyDyD-71" value="&lt;div style=&quot;&quot;&gt;&lt;div&gt;&amp;nbsp; - dbName: String&amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; - dbUser: String&amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; - dbPassword: String&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; - host: String&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; - port: int&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="880" y="475" width="210" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="qmvb4EFnW6i1wsPDyDyD-72" value="&lt;div&gt;&amp;nbsp; + storePost(post: Post): void&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; + storeEmail(email: String): void&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; + storeEvent(event: Event): void&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; + storeNotification(notification: Notification): void&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; + connect(): void&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; + disconnect(): void&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; + executeQuery(query: String): ResultSet&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; + getConnection(): Connection&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; + closeConnection(): void&amp;nbsp;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="880" y="565" width="210" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="qmvb4EFnW6i1wsPDyDyD-77" value="Report " style="rounded=0;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
+          <mxGeometry x="970" y="109" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="qmvb4EFnW6i1wsPDyDyD-78" value="&lt;div style=&quot;&quot;&gt;&lt;div&gt;&amp;nbsp; - reportID: int&amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; - title: String&amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; - content: String&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; - createdAt: DateTime&lt;/div&gt;&lt;div&gt;&amp;nbsp; - author: User&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; - reportType: String&amp;nbsp;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="970" y="149" width="160" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="qmvb4EFnW6i1wsPDyDyD-79" value="&lt;div&gt;&amp;nbsp; + createReport(title: String, content: String): void&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; + editReport(title: String, content: String): void&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; + deleteReport(): void&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; + viewReport(): void&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; + generatePDF(): void&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; + sendReport(email: String): void&amp;nbsp;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="970" y="244" width="160" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="qmvb4EFnW6i1wsPDyDyD-81" value="&lt;div&gt;&lt;span style=&quot;font-family: &amp;quot;Times New Roman&amp;quot;;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;&amp;lt;&amp;lt;association&amp;gt;&amp;gt;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="320" y="180" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qmvb4EFnW6i1wsPDyDyD-82" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" parent="1" source="qmvb4EFnW6i1wsPDyDyD-19" target="qmvb4EFnW6i1wsPDyDyD-67" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qmvb4EFnW6i1wsPDyDyD-83" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" parent="1" source="qmvb4EFnW6i1wsPDyDyD-18" target="qmvb4EFnW6i1wsPDyDyD-62" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qmvb4EFnW6i1wsPDyDyD-84" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" parent="1" source="qmvb4EFnW6i1wsPDyDyD-20" target="qmvb4EFnW6i1wsPDyDyD-10" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qmvb4EFnW6i1wsPDyDyD-85" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;dashed=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="RIKtBBXzG06lw5eP1Mz8-9" target="qmvb4EFnW6i1wsPDyDyD-18" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="284.7499999999998" y="266" as="sourcePoint" />
+            <mxPoint x="351" y="367" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qmvb4EFnW6i1wsPDyDyD-86" value="&lt;div&gt;&lt;span style=&quot;font-family: &amp;quot;Times New Roman&amp;quot;;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;&amp;lt;&amp;lt;association&amp;gt;&amp;gt;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="400" y="510" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qmvb4EFnW6i1wsPDyDyD-87" value="&lt;div&gt;&lt;span style=&quot;font-family: &amp;quot;Times New Roman&amp;quot;;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;&amp;lt;&amp;lt;association&amp;gt;&amp;gt;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="413.5" y="780" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qmvb4EFnW6i1wsPDyDyD-88" value="&lt;div&gt;&lt;span style=&quot;font-family: &amp;quot;Times New Roman&amp;quot;;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;&amp;lt;&amp;lt;association&amp;gt;&amp;gt;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="735" y="163" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qmvb4EFnW6i1wsPDyDyD-89" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;dashed=1;dashPattern=8 8;" parent="1" source="qmvb4EFnW6i1wsPDyDyD-64" target="qmvb4EFnW6i1wsPDyDyD-19" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qmvb4EFnW6i1wsPDyDyD-92" value="&lt;font style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;&amp;lt;&amp;lt;&lt;span style=&quot;font-family: &amp;quot;Times New Roman&amp;quot;; background-color: initial;&quot;&gt;generalization&lt;/span&gt;&lt;span style=&quot;background-color: initial; font-family: &amp;quot;Times New Roman&amp;quot;;&quot;&gt;n&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;gt;&amp;gt;&lt;/span&gt;&lt;/font&gt;&lt;br&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="40" y="400" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qmvb4EFnW6i1wsPDyDyD-93" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;dashed=1;dashPattern=1 2;" parent="1" source="qmvb4EFnW6i1wsPDyDyD-63" target="qmvb4EFnW6i1wsPDyDyD-70" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qmvb4EFnW6i1wsPDyDyD-94" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;dashed=1;dashPattern=1 2;" parent="1" source="qmvb4EFnW6i1wsPDyDyD-67" target="qmvb4EFnW6i1wsPDyDyD-71" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qmvb4EFnW6i1wsPDyDyD-95" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;dashed=1;dashPattern=1 2;" parent="1" source="qmvb4EFnW6i1wsPDyDyD-10" target="qmvb4EFnW6i1wsPDyDyD-72" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qmvb4EFnW6i1wsPDyDyD-96" value="&lt;div&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;span style=&quot;font-family: &amp;quot;Times New Roman&amp;quot;;&quot;&gt;&lt;font style=&quot;&quot;&gt;&amp;lt;&amp;lt;&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;Times New Roman&amp;quot;; background-color: initial;&quot;&gt;instantiation&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;Times New Roman&amp;quot;;&quot;&gt;&lt;font style=&quot;&quot;&gt;&amp;gt;&amp;gt;&lt;/font&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="765" y="290" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qmvb4EFnW6i1wsPDyDyD-97" value="&lt;div&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;span style=&quot;font-family: &amp;quot;Times New Roman&amp;quot;;&quot;&gt;&lt;font style=&quot;&quot;&gt;&amp;lt;&amp;lt;&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;Times New Roman&amp;quot;; background-color: initial;&quot;&gt;instantiation&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;Times New Roman&amp;quot;;&quot;&gt;&lt;font style=&quot;&quot;&gt;&amp;gt;&amp;gt;&lt;/font&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="740" y="520" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qmvb4EFnW6i1wsPDyDyD-98" value="&lt;div&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;span style=&quot;font-family: &amp;quot;Times New Roman&amp;quot;;&quot;&gt;&lt;font style=&quot;&quot;&gt;&amp;lt;&amp;lt;&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;Times New Roman&amp;quot;; background-color: initial;&quot;&gt;instantiation&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;Times New Roman&amp;quot;;&quot;&gt;&lt;font style=&quot;&quot;&gt;&amp;gt;&amp;gt;&lt;/font&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="750" y="770" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qmvb4EFnW6i1wsPDyDyD-99" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;dashed=1;" parent="1" source="qmvb4EFnW6i1wsPDyDyD-64" target="RIKtBBXzG06lw5eP1Mz8-4" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="786" y="114" as="sourcePoint" />
+            <mxPoint x="867.5" y="315" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qmvb4EFnW6i1wsPDyDyD-100" value="&lt;div&gt;&lt;span style=&quot;font-family: &amp;quot;Times New Roman&amp;quot;;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;&amp;lt;&amp;lt;association&amp;gt;&amp;gt;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="220" y="281" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qmvb4EFnW6i1wsPDyDyD-91" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.25;exitY=0;exitDx=0;exitDy=0;" parent="1" source="qmvb4EFnW6i1wsPDyDyD-18" target="qmvb4EFnW6i1wsPDyDyD-8" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="188" y="449" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RIKtBBXzG06lw5eP1Mz8-1" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="761" y="-187" width="160" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="RIKtBBXzG06lw5eP1Mz8-2" value="QuestionsCard" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="RIKtBBXzG06lw5eP1Mz8-1">
+          <mxGeometry x="4" y="85" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="RIKtBBXzG06lw5eP1Mz8-3" value="&lt;div style=&quot;&quot;&gt;&lt;div&gt;&amp;nbsp; - questionID: int&amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; - textQuestion: String&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; -&amp;nbsp;importance: String&amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; - createdAt: DateTime&lt;/div&gt;&lt;div&gt;&amp;nbsp; - updatedAt: DateTime&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="RIKtBBXzG06lw5eP1Mz8-1">
+          <mxGeometry x="4" y="125" width="160" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="RIKtBBXzG06lw5eP1Mz8-4" value="&lt;div&gt;&amp;nbsp; + getImportance(): String&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; + setImportance(): String&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;+ editImportance(): String&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; + setText(email: String): void&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; + editText(): String&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="RIKtBBXzG06lw5eP1Mz8-1">
+          <mxGeometry x="4" y="225" width="160" height="101" as="geometry" />
+        </mxCell>
+        <mxCell id="RIKtBBXzG06lw5eP1Mz8-6" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="251" y="-185" width="160" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="RIKtBBXzG06lw5eP1Mz8-7" value="SubscriptionCards" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="RIKtBBXzG06lw5eP1Mz8-6">
+          <mxGeometry y="5" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="RIKtBBXzG06lw5eP1Mz8-8" value="&lt;div style=&quot;&quot;&gt;&lt;div&gt;&amp;nbsp; - subscriptionID: int&lt;/div&gt;&lt;div&gt;&amp;nbsp; - UserID: QuestionCard&lt;/div&gt;&lt;div&gt;&amp;nbsp; - CardID: CardMissing&lt;/div&gt;&lt;div&gt;&amp;nbsp; - timeSubs: DateTime&amp;nbsp; &amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; - getNotify: Boolean&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="RIKtBBXzG06lw5eP1Mz8-6">
+          <mxGeometry y="45" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="RIKtBBXzG06lw5eP1Mz8-9" value="&lt;div&gt;&amp;nbsp; + setSubs( UserID: User, CardID: CardMissing): void&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; + sendNotification(): void&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; + setTimeSubs(): void&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; + editTimeSubs&lt;span style=&quot;background-color: initial;&quot;&gt;(): void&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; + deleteSubs&lt;span style=&quot;background-color: initial;&quot;&gt;(subscriptionID : SubscriptionCards): void&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; + setNotify(getNotify: boolean);&lt;/div&gt;&lt;div&gt;&amp;nbsp;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="RIKtBBXzG06lw5eP1Mz8-6">
+          <mxGeometry y="135" width="160" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="RIKtBBXzG06lw5eP1Mz8-10" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;exitX=0.999;exitY=0.675;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="RIKtBBXzG06lw5eP1Mz8-9" target="qmvb4EFnW6i1wsPDyDyD-62">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="408" y="66" as="sourcePoint" />
+            <mxPoint x="480" y="20" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RIKtBBXzG06lw5eP1Mz8-11" value="&lt;div&gt;&lt;span style=&quot;font-family: &amp;quot;Times New Roman&amp;quot;;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;&amp;lt;&amp;lt;association&amp;gt;&amp;gt;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="413.5" y="28" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RIKtBBXzG06lw5eP1Mz8-12" value="Statistic" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="528" y="-256" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="RIKtBBXzG06lw5eP1Mz8-13" value="&lt;div style=&quot;&quot;&gt;&lt;div&gt;&amp;nbsp; - statsID: int&amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp; &amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; - CardID: CardMissing&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp; &lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- countView: int&amp;nbsp; &amp;nbsp;&lt;/span&gt;&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; - LastView: DateTime&lt;/div&gt;&lt;div&gt;&amp;nbsp; - &lt;span style=&quot;background-color: initial;&quot;&gt;CreateDate: DateTime&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="528" y="-216" width="160" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="RIKtBBXzG06lw5eP1Mz8-14" value="&lt;div&gt;&amp;nbsp; + createStats(countView: int, CardID: CardMissing, LastVIew: DateTime, CreateDate: DateTime): void&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; + setView(countView: int)&lt;/div&gt;&lt;div&gt;&amp;nbsp; + SetLastView(LastView: DateTime)&lt;/div&gt;&lt;div&gt;&amp;nbsp; + getView(): void&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp; + getLastView(): void&amp;nbsp;&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="528" y="-121" width="160" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="RIKtBBXzG06lw5eP1Mz8-15" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="RIKtBBXzG06lw5eP1Mz8-14" target="qmvb4EFnW6i1wsPDyDyD-62">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="698" y="-0.5" as="sourcePoint" />
+            <mxPoint x="743" y="-101.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RIKtBBXzG06lw5eP1Mz8-16" value="&lt;div&gt;&lt;span style=&quot;font-family: &amp;quot;Times New Roman&amp;quot;;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;&amp;lt;&amp;lt;association&amp;gt;&amp;gt;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="609" y="24" width="100" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
